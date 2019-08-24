@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confirm Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main id="main">
+        <div class="image-div">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjfg-wjFw-s7LEsoCjTuIb227GO6UNy3zNHl5Bzu89o3uFwgmcug" 
+           alt=""
+           id="logo"
+           >
+        </div>
+    <div class="header">
+        <h1>THE WATER CLUB</h1>
+      </div>
+      <div class="reservation"> 
+        <h4>Table For</h4>
+        <input type="number" name ="table" id="table" min="1" step="1" value="1" required/>
+      </div>
+      <div class="datetime">
+        <h4>Choose Date And Time</h4>
+        <input id="datetime" type="datetime-local" name="datetime" value="2017-06-01T08:30" required/>
+      </div>
+      <div class="confirm">
+        <input id="confirm" type="button" name="confirm" value="Confirm" required/>
+      </div>
+    </main>
+</body>
+</html>

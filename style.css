@@ -1,0 +1,33 @@
+body {
+    background-color: cornsilk;
+    text-align: center;
+}
+#logo {
+    border-radius: 100%;
+    border: 2px solid white;
+    height: 120px;
+    margin: 10%
+    
+}
+
+#main {
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: 30%;
+    height: 550px;
+}
+  .header {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  h4.reservation {
+    width: 100%;
+  }
+  #table {
+    width: 20px;
+    height: inherit;
+    display: inline-grid;
+  }
+.confirm {
+    margin: 30px;
+}
